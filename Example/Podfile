@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PhotoLibraryManager_Tests' do
+  pod 'PhotoLibraryManager', :path => '../'
+  
+  
+end
