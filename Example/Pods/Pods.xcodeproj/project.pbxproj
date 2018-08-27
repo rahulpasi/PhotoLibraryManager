@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07329A63FBEF0F3289F518515B07A320 /* Pods-PhotoLibraryManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9BD6A8C968F9D8432D16289EF75FC4 /* Pods-PhotoLibraryManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7FB5C0ED91C5261011EB1A1B7C67CB /* PhotoLibraryManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B985A5C198538788DF6E23FD9B3A40 /* PhotoLibraryManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52002F60BB2D10E3E2F0D2B69DCF0D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7543A0A190836D6451473DBE5EDCA68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8F74E5382472997E741B1BC56EB8E998 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70ACE760FBBB4F3D255B80359F7AC17 /* ReplaceMe.swift */; };
+		D371C13F76CDE3B0D9580DC6A61C9CB3 /* Pods-PhotoLibraryManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3CE98FB2B8C89FFD828DEE07700A5 /* Pods-PhotoLibraryManager_Tests-dummy.m */; };
+		F1A257C048C046722D68D31FBB094006 /* PhotoLibraryManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51766E66BC44D940A5EA7CB7A30E51E1 /* PhotoLibraryManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC2C619FC3A600C9A4268242AF16BDCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC552026582C73E5CE3C8EF4365F3B16;
+			remoteInfo = PhotoLibraryManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06EFE8B1605B84A6BD56541136251E3E /* PhotoLibraryManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PhotoLibraryManager.modulemap; sourceTree = "<group>"; };
+		0A9BD6A8C968F9D8432D16289EF75FC4 /* Pods-PhotoLibraryManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoLibraryManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0CD479A58ADDC29DB71B130B61022521 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A237CC208000FD82A2F2C259FA720B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECA4C97A8C65EA6170D615E82AD6DF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3A3B68FD8EA0EA98EAACF74E4FB73534 /* PhotoLibraryManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhotoLibraryManager.xcconfig; sourceTree = "<group>"; };
+		3DAECA519CD5D0C63D3068336E48086B /* PhotoLibraryManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PhotoLibraryManager.framework; path = PhotoLibraryManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51766E66BC44D940A5EA7CB7A30E51E1 /* PhotoLibraryManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhotoLibraryManager-dummy.m"; sourceTree = "<group>"; };
+		58B985A5C198538788DF6E23FD9B3A40 /* PhotoLibraryManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhotoLibraryManager-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C6FC3ECAE87A362DB2F115C9FD7F80E /* Pods-PhotoLibraryManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoLibraryManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6EB8942C4C2B2D66E29C02262BD6969F /* Pods-PhotoLibraryManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoLibraryManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		7DBED3BEF99A3B4F564A5AC1603B2410 /* Pods-PhotoLibraryManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoLibraryManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EC13E10F0E5D00EEBB7BA7760B5C2D6 /* Pods-PhotoLibraryManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoLibraryManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF3CE98FB2B8C89FFD828DEE07700A5 /* Pods-PhotoLibraryManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoLibraryManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		A2FBCFF1BDFD082D3A36E93DFD1478D1 /* PhotoLibraryManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhotoLibraryManager-prefix.pch"; sourceTree = "<group>"; };
+		A70ACE760FBBB4F3D255B80359F7AC17 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PhotoLibraryManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B69B34C9144B51863F8C9F9DB791CE8E /* Pods_PhotoLibraryManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoLibraryManager_Tests.framework; path = "Pods-PhotoLibraryManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8BB84A77FCBA9D9B05586CDCC393D85 /* Pods-PhotoLibraryManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoLibraryManager_Tests.modulemap"; sourceTree = "<group>"; };
+		C210970B7BB02BA2B70BDA7C9CFC7845 /* Pods-PhotoLibraryManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoLibraryManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1482DE6609E448538002E7E8106531E /* PhotoLibraryManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PhotoLibraryManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E85AC390A2AF93FCC8DC87E6CFAD15B4 /* Pods-PhotoLibraryManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoLibraryManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FE7839B01884630570BFBD916F46EB5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33C12DADA14C08B1E41958EF78004ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52002F60BB2D10E3E2F0D2B69DCF0D8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C516F737DC911747FCC3DC388D0E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7543A0A190836D6451473DBE5EDCA68B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3C410630457058E35E629EA3F45D0A /* Pods-PhotoLibraryManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A237CC208000FD82A2F2C259FA720B1 /* Info.plist */,
+				B8BB84A77FCBA9D9B05586CDCC393D85 /* Pods-PhotoLibraryManager_Tests.modulemap */,
+				8EC13E10F0E5D00EEBB7BA7760B5C2D6 /* Pods-PhotoLibraryManager_Tests-acknowledgements.markdown */,
+				7DBED3BEF99A3B4F564A5AC1603B2410 /* Pods-PhotoLibraryManager_Tests-acknowledgements.plist */,
+				9FF3CE98FB2B8C89FFD828DEE07700A5 /* Pods-PhotoLibraryManager_Tests-dummy.m */,
+				6C6FC3ECAE87A362DB2F115C9FD7F80E /* Pods-PhotoLibraryManager_Tests-frameworks.sh */,
+				6EB8942C4C2B2D66E29C02262BD6969F /* Pods-PhotoLibraryManager_Tests-resources.sh */,
+				0A9BD6A8C968F9D8432D16289EF75FC4 /* Pods-PhotoLibraryManager_Tests-umbrella.h */,
+				C210970B7BB02BA2B70BDA7C9CFC7845 /* Pods-PhotoLibraryManager_Tests.debug.xcconfig */,
+				E85AC390A2AF93FCC8DC87E6CFAD15B4 /* Pods-PhotoLibraryManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-PhotoLibraryManager_Tests";
+			path = "Target Support Files/Pods-PhotoLibraryManager_Tests";
+			sourceTree = "<group>";
+		};
+		130B6C872130BFE7099A4BADE34CBAA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE7839B01884630570BFBD916F46EB5B /* Info.plist */,
+				06EFE8B1605B84A6BD56541136251E3E /* PhotoLibraryManager.modulemap */,
+				3A3B68FD8EA0EA98EAACF74E4FB73534 /* PhotoLibraryManager.xcconfig */,
+				51766E66BC44D940A5EA7CB7A30E51E1 /* PhotoLibraryManager-dummy.m */,
+				A2FBCFF1BDFD082D3A36E93DFD1478D1 /* PhotoLibraryManager-prefix.pch */,
+				58B985A5C198538788DF6E23FD9B3A40 /* PhotoLibraryManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PhotoLibraryManager";
+			sourceTree = "<group>";
+		};
+		155A217CCC46737C210D6AAA8316052E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0CD479A58ADDC29DB71B130B61022521 /* LICENSE */,
+				D1482DE6609E448538002E7E8106531E /* PhotoLibraryManager.podspec */,
+				2ECA4C97A8C65EA6170D615E82AD6DF0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2858CABCA9B2B2592E9299206C21E0EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E3C410630457058E35E629EA3F45D0A /* Pods-PhotoLibraryManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		546845411A756146B2E21D0E0BE0BD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DAECA519CD5D0C63D3068336E48086B /* PhotoLibraryManager.framework */,
+				B69B34C9144B51863F8C9F9DB791CE8E /* Pods_PhotoLibraryManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DAFFD573EE9F164829EE6522C60EE60E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				546845411A756146B2E21D0E0BE0BD3E /* Products */,
+				2858CABCA9B2B2592E9299206C21E0EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6BE1EB1A714768AA02DC1F8A671171 /* PhotoLibraryManager */ = {
+			isa = PBXGroup;
+			children = (
+				A70ACE760FBBB4F3D255B80359F7AC17 /* ReplaceMe.swift */,
+				155A217CCC46737C210D6AAA8316052E /* Pod */,
+				130B6C872130BFE7099A4BADE34CBAA5 /* Support Files */,
+			);
+			name = PhotoLibraryManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAFFD573EE9F164829EE6522C60EE60E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B6BE1EB1A714768AA02DC1F8A671171 /* PhotoLibraryManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DF353B965B04D7BB54799332DC20661 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07329A63FBEF0F3289F518515B07A320 /* Pods-PhotoLibraryManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86313B29F2FF9EAFEA26460F8C69CD93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7FB5C0ED91C5261011EB1A1B7C67CB /* PhotoLibraryManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7521516A02D70A3FBCC88B25771E2791 /* Pods-PhotoLibraryManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17D85395FD1F02E9023654E5E2B5440 /* Build configuration list for PBXNativeTarget "Pods-PhotoLibraryManager_Tests" */;
+			buildPhases = (
+				A4FC8E15E9200F79749BC303A767771F /* Sources */,
+				33C12DADA14C08B1E41958EF78004ABB /* Frameworks */,
+				1DF353B965B04D7BB54799332DC20661 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B078603BACABDB0F285EC613D583FD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoLibraryManager_Tests";
+			productName = "Pods-PhotoLibraryManager_Tests";
+			productReference = B69B34C9144B51863F8C9F9DB791CE8E /* Pods_PhotoLibraryManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC552026582C73E5CE3C8EF4365F3B16 /* PhotoLibraryManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5B1997416F1C16115C6DF9D4F6D4E3 /* Build configuration list for PBXNativeTarget "PhotoLibraryManager" */;
+			buildPhases = (
+				E2ED2E92CC164439B4470633095F65A2 /* Sources */,
+				C8C516F737DC911747FCC3DC388D0E78 /* Frameworks */,
+				86313B29F2FF9EAFEA26460F8C69CD93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoLibraryManager;
+			productName = PhotoLibraryManager;
+			productReference = 3DAECA519CD5D0C63D3068336E48086B /* PhotoLibraryManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 546845411A756146B2E21D0E0BE0BD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC552026582C73E5CE3C8EF4365F3B16 /* PhotoLibraryManager */,
+				7521516A02D70A3FBCC88B25771E2791 /* Pods-PhotoLibraryManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FC8E15E9200F79749BC303A767771F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D371C13F76CDE3B0D9580DC6A61C9CB3 /* Pods-PhotoLibraryManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ED2E92CC164439B4470633095F65A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A257C048C046722D68D31FBB094006 /* PhotoLibraryManager-dummy.m in Sources */,
+				8F74E5382472997E741B1BC56EB8E998 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B078603BACABDB0F285EC613D583FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhotoLibraryManager;
+			target = DC552026582C73E5CE3C8EF4365F3B16 /* PhotoLibraryManager */;
+			targetProxy = AC2C619FC3A600C9A4268242AF16BDCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F4EF7DA273C8BDBA2E6C0ADF8EF64FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85AC390A2AF93FCC8DC87E6CFAD15B4 /* Pods-PhotoLibraryManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoLibraryManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoLibraryManager_Tests/Pods-PhotoLibraryManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FFE8BFA4C068435CCF1CCEAD55B8139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3B68FD8EA0EA98EAACF74E4FB73534 /* PhotoLibraryManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhotoLibraryManager/PhotoLibraryManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhotoLibraryManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhotoLibraryManager/PhotoLibraryManager.modulemap";
+				PRODUCT_MODULE_NAME = PhotoLibraryManager;
+				PRODUCT_NAME = PhotoLibraryManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5112E1D3DC77A481B1BCBD968ABCB33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3B68FD8EA0EA98EAACF74E4FB73534 /* PhotoLibraryManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhotoLibraryManager/PhotoLibraryManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhotoLibraryManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhotoLibraryManager/PhotoLibraryManager.modulemap";
+				PRODUCT_MODULE_NAME = PhotoLibraryManager;
+				PRODUCT_NAME = PhotoLibraryManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97CF3813E65A016AD7208A9FB14E9B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C210970B7BB02BA2B70BDA7C9CFC7845 /* Pods-PhotoLibraryManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoLibraryManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoLibraryManager_Tests/Pods-PhotoLibraryManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5B1997416F1C16115C6DF9D4F6D4E3 /* Build configuration list for PBXNativeTarget "PhotoLibraryManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFE8BFA4C068435CCF1CCEAD55B8139 /* Debug */,
+				5112E1D3DC77A481B1BCBD968ABCB33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17D85395FD1F02E9023654E5E2B5440 /* Build configuration list for PBXNativeTarget "Pods-PhotoLibraryManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CF3813E65A016AD7208A9FB14E9B0D /* Debug */,
+				1F4EF7DA273C8BDBA2E6C0ADF8EF64FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

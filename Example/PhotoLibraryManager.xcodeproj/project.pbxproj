@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C2FE71DCCCBB238EBFF78D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1C2FE71DCCCBB238EBFF78D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1F765E66F72BF998B389D2D9 /* Pods_PhotoLibraryManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoLibraryManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E677D3CC1BD1CAEC53213E /* Pods-PhotoLibraryManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoLibraryManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoLibraryManager_Tests/Pods-PhotoLibraryManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		507C9FDAC1E7F86762611343 /* Pods-PhotoLibraryManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoLibraryManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoLibraryManager_Tests/Pods-PhotoLibraryManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* PhotoLibraryManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoLibraryManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A6C5DABBAB7A79FD9D60F03 /* PhotoLibraryManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PhotoLibraryManager.podspec; path = ../PhotoLibraryManager.podspec; sourceTree = "<group>"; };
-		8E4F522F082A0DA6DD70FC3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6A6C5DABBAB7A79FD9D60F03 /* PhotoLibraryManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PhotoLibraryManager.podspec; path = ../PhotoLibraryManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E4F522F082A0DA6DD70FC3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

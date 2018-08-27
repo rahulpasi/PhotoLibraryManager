@@ -1,0 +1,16 @@
+PODS:
+  - PhotoLibraryManager (0.1.0)
+
+DEPENDENCIES:
+  - PhotoLibraryManager (from `../`)
+
+EXTERNAL SOURCES:
+  PhotoLibraryManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PhotoLibraryManager: afd2f0d4161e6d4147cb42a77f799ac67e749488
+
+PODFILE CHECKSUM: 1eb32e6a3fecc85fe42b70622f22c09cd76cec07
+
+COCOAPODS: 1.5.3
