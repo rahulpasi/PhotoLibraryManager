@@ -11,8 +11,9 @@
 		1E7FB5C0ED91C5261011EB1A1B7C67CB /* PhotoLibraryManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B985A5C198538788DF6E23FD9B3A40 /* PhotoLibraryManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52002F60BB2D10E3E2F0D2B69DCF0D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7543A0A190836D6451473DBE5EDCA68B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		8F74E5382472997E741B1BC56EB8E998 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70ACE760FBBB4F3D255B80359F7AC17 /* ReplaceMe.swift */; };
 		D371C13F76CDE3B0D9580DC6A61C9CB3 /* Pods-PhotoLibraryManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3CE98FB2B8C89FFD828DEE07700A5 /* Pods-PhotoLibraryManager_Tests-dummy.m */; };
+		E9DE770A213442CE0068791E /* PhotoLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE7709213442CE0068791E /* PhotoLibraryManager.swift */; };
+		E9DE770C2134431D0068791E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE770B2134431D0068791E /* Constants.swift */; };
 		F1A257C048C046722D68D31FBB094006 /* PhotoLibraryManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51766E66BC44D940A5EA7CB7A30E51E1 /* PhotoLibraryManager-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +30,11 @@
 /* Begin PBXFileReference section */
 		06EFE8B1605B84A6BD56541136251E3E /* PhotoLibraryManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PhotoLibraryManager.modulemap; sourceTree = "<group>"; };
 		0A9BD6A8C968F9D8432D16289EF75FC4 /* Pods-PhotoLibraryManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoLibraryManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0CD479A58ADDC29DB71B130B61022521 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0CD479A58ADDC29DB71B130B61022521 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2A237CC208000FD82A2F2C259FA720B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2ECA4C97A8C65EA6170D615E82AD6DF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2ECA4C97A8C65EA6170D615E82AD6DF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A3B68FD8EA0EA98EAACF74E4FB73534 /* PhotoLibraryManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhotoLibraryManager.xcconfig; sourceTree = "<group>"; };
-		3DAECA519CD5D0C63D3068336E48086B /* PhotoLibraryManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PhotoLibraryManager.framework; path = PhotoLibraryManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAECA519CD5D0C63D3068336E48086B /* PhotoLibraryManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoLibraryManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51766E66BC44D940A5EA7CB7A30E51E1 /* PhotoLibraryManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhotoLibraryManager-dummy.m"; sourceTree = "<group>"; };
 		58B985A5C198538788DF6E23FD9B3A40 /* PhotoLibraryManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhotoLibraryManager-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -41,15 +42,16 @@
 		6EB8942C4C2B2D66E29C02262BD6969F /* Pods-PhotoLibraryManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoLibraryManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		7DBED3BEF99A3B4F564A5AC1603B2410 /* Pods-PhotoLibraryManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoLibraryManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8EC13E10F0E5D00EEBB7BA7760B5C2D6 /* Pods-PhotoLibraryManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoLibraryManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF3CE98FB2B8C89FFD828DEE07700A5 /* Pods-PhotoLibraryManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoLibraryManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		A2FBCFF1BDFD082D3A36E93DFD1478D1 /* PhotoLibraryManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhotoLibraryManager-prefix.pch"; sourceTree = "<group>"; };
-		A70ACE760FBBB4F3D255B80359F7AC17 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PhotoLibraryManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		B69B34C9144B51863F8C9F9DB791CE8E /* Pods_PhotoLibraryManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoLibraryManager_Tests.framework; path = "Pods-PhotoLibraryManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69B34C9144B51863F8C9F9DB791CE8E /* Pods_PhotoLibraryManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoLibraryManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BB84A77FCBA9D9B05586CDCC393D85 /* Pods-PhotoLibraryManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoLibraryManager_Tests.modulemap"; sourceTree = "<group>"; };
 		C210970B7BB02BA2B70BDA7C9CFC7845 /* Pods-PhotoLibraryManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoLibraryManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1482DE6609E448538002E7E8106531E /* PhotoLibraryManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PhotoLibraryManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1482DE6609E448538002E7E8106531E /* PhotoLibraryManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PhotoLibraryManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E85AC390A2AF93FCC8DC87E6CFAD15B4 /* Pods-PhotoLibraryManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoLibraryManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E9DE7709213442CE0068791E /* PhotoLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoLibraryManager.swift; path = PhotoLibraryManager/Classes/PhotoLibraryManager.swift; sourceTree = "<group>"; };
+		E9DE770B2134431D0068791E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PhotoLibraryManager/Classes/Constants.swift; sourceTree = "<group>"; };
 		FE7839B01884630570BFBD916F46EB5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,7 +156,8 @@
 		9B6BE1EB1A714768AA02DC1F8A671171 /* PhotoLibraryManager */ = {
 			isa = PBXGroup;
 			children = (
-				A70ACE760FBBB4F3D255B80359F7AC17 /* ReplaceMe.swift */,
+				E9DE7709213442CE0068791E /* PhotoLibraryManager.swift */,
+				E9DE770B2134431D0068791E /* Constants.swift */,
 				155A217CCC46737C210D6AAA8316052E /* Pod */,
 				130B6C872130BFE7099A4BADE34CBAA5 /* Support Files */,
 			);
@@ -276,7 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1A257C048C046722D68D31FBB094006 /* PhotoLibraryManager-dummy.m in Sources */,
-				8F74E5382472997E741B1BC56EB8E998 /* ReplaceMe.swift in Sources */,
+				E9DE770A213442CE0068791E /* PhotoLibraryManager.swift in Sources */,
+				E9DE770C2134431D0068791E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

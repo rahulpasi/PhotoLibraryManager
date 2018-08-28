@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PhotoLibraryManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PhotoLibraryManager.'
+  s.summary          = 'A manager for asking permission and execute several actions in iOS Photo Library.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+With PhotoLibraryManager you can ask for user permission to access photo library. If you gain access you get some great features including checking if an album already exists, making a new album with your custom name, save a photo to your album, check if a photo exists, get a photo with specific identifier, delete a photo etc. If the user denied access, an alert window can lead him to app settings in order to change permission if he wants to.
                        DESC
 
   s.homepage         = 'https://github.com/tdermaris/PhotoLibraryManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tdermaris' => 'tdermaris@yahoo.gr' }
+  s.author           = { 'tdermaris' => 'tdermaris@gmail.com' }
   s.source           = { :git => 'https://github.com/tdermaris/PhotoLibraryManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_version    = '4.1'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'PhotoLibraryManager/Classes/**/*'
   
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Photos'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
