@@ -31,6 +31,8 @@ use the below functions on photoManager to get the functionality that you want
 
 ## Documentation
 
+PhotoLibraryManager provides the following public methods:
+
     - checkAuthorisationStatus(vc: UIViewController?, completion: @escaping ((Bool) -> Void))
         Returns a boolean value indicating whether we have access to photoLibrary 
     - containsAlbum(albumName: String) -> Bool
