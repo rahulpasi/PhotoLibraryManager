@@ -23,27 +23,27 @@ pod 'PhotoLibraryManager'
 ```
 
 ## API
-import PhotoLibraryManager
+    import PhotoLibraryManager
 
-let photoManager = PhotoLibraryManager()
+    let photoManager = PhotoLibraryManager()
 
 use the below functions on photoManager to get the functionality that you want
 
 ## Documentation
 
-- checkAuthorisationStatus(vc: UIViewController?, completion: @escaping ((Bool) -> Void))
+    - checkAuthorisationStatus(vc: UIViewController?, completion: @escaping ((Bool) -> Void))
         Returns a boolean value indicating whether we have access to photoLibrary 
-- containsAlbum(albumName: String) -> Bool
+    - containsAlbum(albumName: String) -> Bool
         Returns a boolean value indicating whether photo library contains a specific album 
-- makeAlbum(albumName: String)
+    - makeAlbum(albumName: String)
         Makes a specific album in photo library
-- savePhotoToAlbum(albumName: String, photo:UIImage, completion: ((_ identifier: String?, _ error: Error?) -> Void)?)
+    - savePhotoToAlbum(albumName: String, photo:UIImage, completion: ((_ identifier: String?, _ error: Error?) -> Void)?)
         Returns the saved image identifier and error
-- getPhoto(with identifier: String, mode: PHImageRequestOptionsDeliveryMode) -> UIImage?
+    - getPhoto(with identifier: String, mode: PHImageRequestOptionsDeliveryMode) -> UIImage?
         Returns a photo with the specific identifier
-- containsPhoto(identifier: String) -> Bool
+    - containsPhoto(identifier: String) -> Bool
         Returns a boolean value indicating whether the photo exists in photo library
-- deletePhoto(identifier: String)
+    - deletePhoto(identifier: String)
         Deleting the photo with the specific identifier
         
 
