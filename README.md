@@ -49,7 +49,7 @@ PhotoLibraryManager provides the following public methods:
     - containsPhoto(identifier: String) -> Bool
         Returns a boolean value indicating whether the photo exists in photo library
     - deletePhoto(identifier: String)
-        Deleting the photo with the specific identifier
+        Deletes the photo with the specific identifier
         
 
 ## Author
