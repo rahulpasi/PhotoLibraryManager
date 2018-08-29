@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/PhotoLibraryManager.svg?style=flat)](https://cocoapods.org/pods/PhotoLibraryManager)
 [![Platform](https://img.shields.io/cocoapods/p/PhotoLibraryManager.svg?style=flat)](https://cocoapods.org/pods/PhotoLibraryManager)
 
+## About
+PhotoLibraryManager helps you ask user permission to access photo library and provides several methods to add new folder, save and delete images etc.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
